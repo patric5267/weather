@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+.box2con1 div:hover{
+    transform: scale(1.2);
+}
+body{
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.maincon {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 2.4vw;
+}
+
+.box2con1 p {
+    font-size: 1.4vw;
+}
+
+.box2con2 p {
+    font-size: 1.4vw;
+}
+
+.maincon .inner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/weather.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search {
+    border: 1px solid white;
+    width: 60%;
+    height: 8vh;
+    border-radius: 1vw;
+    margin-bottom: 3vh;
+    margin-top: 4vh;
+    background-color: #00000070;
+    display: flex;
+    flex-direction: row;
+}
+
+.search button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: white;
+    margin-right: 1vw;
+}
+
+.search button img {
+    width: 2vw;
+}
+
+.search input {
+    border: 0;
+    background-color: transparent;
+    width: 94%;
+    color: white;
+    outline: none;
+    padding-left: 0.5vw;
+    font-size: 1.5vw;
+}
+
+.maincon .inner .box {
+    border: 1px solid white;
+    width: 60%;
+    height: 80vh;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00000070;
+}
+
+.box1 {
+    border: 1px solid white;
+    width: 90%;
+    height: 30vh;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.boxcon1 {
+    /* background-color: #ff00003d; */
+    width: 53%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxcon1 .con1 {
+    /* background-color: red; */
+    width: 100%;
+    height: 60vh;
+}
+
+.boxcon1 .con2 {
+    /* background-color: green; */
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    /* align-items: start; */
+}
+
+.boxcon1 .con2 p {
+    margin-left: 0.5vw;
+    font-size: 2vw;
+    margin-bottom: 0.5vh;
+}
+
+.boxcon2 {
+    /* background-color: #0080002e; */
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.boxcon2 p {
+    margin-top: 1vh;
+    font-size: 2vw;
+    color: white;
+    margin-right: 1vw;
+}
+
+.box2 {
+
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.box2con1 {
+    /* background-color: #ff000038; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+
+}
+
+.box2con1 div {
+    min-width: 17%;
+    height: 70%;
+    border: 1px solid white;
+    margin-left: 1.4vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-radius: 0.6rem;
+    transition: 1s;
+}
+
+.box2con2 {
+    /* background-color: #0000ff59; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    border: 1px solid white;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+
+}
+
+.boxcon2 img {
+    width: 4vw;
+}
+
+.box2con2 div {
+    min-width: 17%;
+    height: 70%;
+    border: 1px solid white;
+    margin-left: 1.4vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.6rem;
+    transition: 1s;
+}
+.box2con2 div:hover{
+    transform: scale(1.2);
+}
+.found {
+    width: 60%;
+    height: 80vh;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    color: white;
+}
+.found p{
+    border: 1px solid white;
+    background-color: #00000070;
+    width: 50%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+}
+.loading {
+    /* border: 1px solid white; */
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4vw;
+}
+.loading p{
+    border: 1px solid white;
+    background-color: #00000070;
+    width: 50%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+}
+@media only screen and (max-width: 768px) {
+    .box2con1 div {
+        min-width: 27%;
+        height: 70%;
+        border: 1px solid white;
+        margin-left: 4vw;
+    }
+
+    .box2con2 div {
+        min-width: 27%;
+        height: 70%;
+        border: 1px solid white;
+        margin-left: 4vw;
+    }
+
+    .img {
+        width: 4vw;
+    }
+
+    .box2con1 p {
+        font-size: 2vw;
+    }
+
+    .box2con2 p {
+        font-size: 2vw;
+    }
+
+    .found {
+        width: 80%;
+        font-size: 5vw;
+        width: 60%;
+        font-size: 4vw;
+    }
+    .found p {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .maincon .inner .box {
+        width: 85%;
+        height: 82vh;
+    }
+
+    .boxcon1 .con2 p {
+        font-size: 4vw;
+    }
+
+    .boxcon2 p {
+        font-size: 4vw;
+    }
+
+    .box2con1 div {
+        min-width: 44%;
+        height: 70%;
+        border: 1px solid white;
+        margin-left: 4vw;
+    }
+
+    .box2con2 div {
+        min-width: 44%;
+        height: 70%;
+        border: 1px solid white;
+        margin-left: 4vw;
+    }
+
+    .img {
+        width: 8vw;
+    }
+
+    .box2con1 p {
+        font-size: 4vw;
+    }
+
+    .box2con2 p {
+        font-size: 4vw;
+    }
+
+    .boxcon2 img {
+        width: 12vw;
+    }
+
+    .boxcon1 {
+        width: 74%;
+    }
+
+    .found {
+        width: 80%;
+        font-size: 5vw;
+    }
+    .found p {
+        width: 95%;
+    }    
+    .search {
+        width: 85%;
+        height: 7vh;
+        margin-bottom: 1vh;
+    }
+
+    .search input {
+        width: 90%;
+        outline: none;
+        padding-left: 0.9vw;
+        font-size: 5vw;
+    }
+
+    .search button img {
+        width: 5vw;
+    }
+}

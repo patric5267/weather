@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main .inner{
+    border: 1px solid red;
+    width: 40rem;
+    height: 7rem;
+    display: flex;
+    overflow-x: auto;
+}
+.inner div{
+    background-color: blue;
+    min-width: 10rem;
+    height: 4rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
